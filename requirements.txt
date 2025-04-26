@@ -10,3 +10,7 @@ pytest>=6.2.4
 pytest-asyncio>=0.15.1
 requests>=2.26.0
 numpy>=1.21.0
+httpx>=0.26.0  # Add this
+# Keep existing dependencies
+fastapi>=0.68.0
+uvicorn>=0.15.0
