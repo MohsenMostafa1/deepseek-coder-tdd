@@ -16,9 +16,16 @@ setup(
         "sqlalchemy>=1.4.0",
         "pytest>=6.2.4"
     ],
+    extras_require={
+        'dev': [
+            'pytest',
+            'httpx',
+            # other test dependencies
+        ]
+    },
     entry_points={
-    'console_scripts': [
-        'deepseek-init=app.utils.helpers:initialize_database'  
-    ]
-}
+        'console_scripts': [
+            'deepseek-init=app.utils.helpers:initialize_database'
+        ]
+    }
 )
