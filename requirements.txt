@@ -14,3 +14,4 @@ httpx>=0.26.0  # Add this
 # Keep existing dependencies
 fastapi>=0.68.0
 uvicorn>=0.15.0
+pyngrok
