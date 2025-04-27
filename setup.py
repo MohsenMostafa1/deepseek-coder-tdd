@@ -3,7 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name="deepseek_coder",
     version="1.0.0",
-    packages=find_packages(),
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
     install_requires=[
         "fastapi>=0.68.0",
         "uvicorn>=0.15.0",
