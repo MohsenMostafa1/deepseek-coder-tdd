@@ -17,8 +17,8 @@ setup(
         "pytest>=6.2.4"
     ],
     entry_points={
-        'console_scripts': [
-            'deepseek-init=app.utils.helpers:initialize_database'
-        ]
-    }
+    'console_scripts': [
+        'deepseek-init=app.utils.helpers:initialize_database'
+    ]
+}
 )
