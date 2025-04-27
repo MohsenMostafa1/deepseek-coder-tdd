@@ -18,7 +18,7 @@ setup(
     ],
     entry_points={
     'console_scripts': [
-        'deepseek-init=app.utils.helpers:initialize_database'
+        'deepseek-init=app.utils.helpers:initialize_database'  
     ]
 }
 )
